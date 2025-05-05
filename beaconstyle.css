@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #01033df8;
+    color: white;
+}
+
+
+.logo h1 {
+    background-color: #e9c1119b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e9c111e7;
+    border-radius: 5px;
+}
+
+.slideshow-container {
+    position:relative
+    width: 100%;
+    height: 300px;
+    overflow: show;
+}
+
+.slide {
+    position:absolute
+    width: 90%;
+    height: 90%;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    text-align: :left;
+    font-size: 18px; 
+    margin-top: 10px;
+}
+
+.motto {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.WhyUs {
+    position:relative
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.clients-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.client {
+    text-align: center;
+}
+
+.client img {
+    width: 80px;
+}
+.corevalues-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-left, .contact-right {
+    width: 45%;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: none; 
+    padding-left: 20px;
+}
+
+ul li {
+    position: relative;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #e9c111e7; 
+    border-radius: 3px; 
+}
